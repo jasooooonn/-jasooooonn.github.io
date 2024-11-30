@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        
+        body {
+            background: linear-gradient(to right, #87CEFA, #00BFFF);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        .biodata-container {
+            background-color: white;
+            border: 2px solid white;
+            padding: 20px;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            text-align: center;
+            font-size: 28px;
+            color: pink;
+            border: 2px solid white;
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .biodata {
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+        }
+        .biodata table {
+            border-collapse: collapse;
+            width: 70%;
+            margin-right: 20px;
+        }
+        .biodata th, .biodata td {
+            border: 2px solid green;
+            padding: 10px;
+            text-align: left;
+        }
+        .white { background-color: #f9f9f9; }
+        .green { background-color: #90ee90; }
+        .purple { background-color: #dda0dd; }
+        .pink { background-color: #ffb6c1; }
+        .lightblue { background-color: #add8e6; }
+        .paleyellow { background-color: #ffffe0; }
+        .grey { background-color: #dcdcdc; }
+        .red { background-color: #ff7f7f; }
+        .brown { background-color: #cd853f; }
+        .biodata img {
+            width: 30%;
+            height: auto;
+            max-height: 100%;
+            border: 2px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="biodata-container">
+        <div class="title">Biodata Diri</div>
+        <div class="biodata">
+            <table>
+                <tr class="white">
+                    <th>Nama Lengkap</th>
+                    <td>Alexander Jason Wirawan</td>
+                </tr>
+                <tr class="green">
+                    <th>Alamat</th>
+                    <td>Jl. Gading Putih IV SC 1 No 2, Kelapa Gading</td>
+                </tr>
+                <tr class="purple">
+                    <th>Tempat/Tanggal Lahir</th>
+                    <td>Jakarta, 15 Januari 2008</td>
+                </tr>
+                <tr class="pink">
+                    <th>Kelas</th>
+                    <td>11-8</td>
+                </tr>
+                <tr class="lightblue">
+                    <th>No Absen</th>
+                    <td>1</td>
+                </tr>
+                <tr class="paleyellow">
+                    <th>Hobi</th>
+                    <td>Fotografi</td>
+                </tr>
+                <tr class="grey">
+                    <th>Jenis Kelamin</th>
+                    <td>Laki-laki</td>
+                </tr>
+                <tr class="red">
+                    <th>Sekolah</th>
+                    <td>SMA Kolese Kanisius Jakarta</td>
+                </tr>
+                <tr class="brown">
+                    <th>Jurusan</th>
+                    <td>IPA</td>
+                </tr>
+            </table>
+            <img src="fotosaya.jpg" alt="Foto Saya">
+        </div>
+    </div>
+</body>
+</html>
